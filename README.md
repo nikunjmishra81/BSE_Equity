@@ -30,7 +30,10 @@ Steps to Run this project as follows
 	
 	
 	a. Search for "./django_cache" , It has 4 occurrences
+	
 	b. Replace it with actual path of folder i.e. "<base_path>/BSE_Equity/django_cache"
+	
 	c. Search for "./simple-vuejs-app" , It has 2 occurrences with nginx
+	
 	d. Replace it with actual path of folder i.e. "<base_path>/BSE_Equity/simple-vuejs-app"
 	
