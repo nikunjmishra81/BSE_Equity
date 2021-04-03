@@ -38,3 +38,4 @@ Steps to Run this project as follows
 	d. Replace it with actual path of folder i.e. "<base_path>/BSE_Equity/simple-vuejs-app"
 	
 7. Once the project is up, Check the localhost:80 on your machine
+8. If you need to apply SSL, you can use nginx file present in "simple-vuejs-app/nginx"
