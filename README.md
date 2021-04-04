@@ -103,10 +103,10 @@ __This Project will fetch Equity data on daily basis from BSE Site https://www.b
 		8. If you need to apply SSL, you can use nginx file present in "simple-vuejs-app/nginx"
 
 
-** Note : 
-* ___If You get error like this for redis, frontend, backend, scheduler
-	*Service 'frontend' failed to build: Get https://registry-1.docker.io/v2/: EOF
-	hit the command again
+** __Note : 
+* __If You get error like this for redis, frontend, backend, scheduler
+	* Service 'frontend' failed to build: Get https://registry-1.docker.io/v2/: EOF
+	* hit the command again
 		docker-compose up -d
 		
 * __In Case you are using an ubuntu system and containers don't goes up, or create some issue, you need to do proper volume mapping in docker compose file. To do so:
