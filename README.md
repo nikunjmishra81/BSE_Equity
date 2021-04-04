@@ -6,41 +6,64 @@
 This Project will fetch Equity data on daily basis from BSE Site https://www.bseindia.com/markets/MarketInfo/BhavCopy.aspx
 
 ___Requirements To run this project You need 
+
 Windows/Ubuntu instance
+
 Docker and docker-compose Installed
+
 Git Installed
 
-__To install Docker__ 
+__To install Docker
 	___On windows
+	
 		1. You can directly download from Docker site https://hub.docker.com/editions/community/docker-ce-desktop-windows/
+		
 		2. Docker compose is attached with docker while downloading from windows
+		
 	___On ubuntu
 		1. sudo apt update
+		
 		2. sudo apt install docker.io
+		
 		3. To check installed or not use command
 			docker --version
 			& output should be
 			Docker version 19.03.8, build afacb8b7f0
+		
 		4. sudo systemctl status docker(docker is stopped now)
+		
 		5. sudo systemctl start docker
+		
 		6. sudo systemctl status docker
 			Loaded: loaded (/lib/systemd/system/docker.service; disabled; vendor prese>
+			
 			Active: active (running) since Sun 2021-04-04 11:28:14 UTC; 5s ago
+			
 			TriggeredBy: ● docker.socket
+			
 			Docs: https://docs.docker.com
+			
 			Main PID: 15092 (dockerd)
+			
 			Tasks: 8
+			
 			Memory: 43.2M
+			
 			CGroup: /system.slice/docker.service
 			     └─15092 /usr/bin/dockerd -H fd:// --containerd=/ru
 
 __To install docker-compose(on ubuntu)
+	
 	1. sudo curl -L "https://github.com/docker/compose/releases/download/1.25.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+	
 	2. sudo chmod +x /usr/local/bin/docker-compose
 
 __To Install git
+	
 	1. sudo apt update 
+	
 	2. sudo apt install git
+	
 	3. To check installed or not use command
 		git --version
 		& output should be like
