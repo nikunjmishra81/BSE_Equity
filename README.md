@@ -5,7 +5,7 @@
 
 This Project will fetch Equity data on daily basis from BSE Site https://www.bseindia.com/markets/MarketInfo/BhavCopy.aspx
 
-___Requirements To run this project You need 
+__Requirements To run this project You need 
 
 Windows/Ubuntu instance
 
