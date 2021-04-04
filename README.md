@@ -21,7 +21,7 @@ __This Project will fetch Equity data on daily basis from BSE Site https://www.b
 		2. Docker compose is attached with docker while downloading from windows
 		
 	
-	On ubuntu
+	To install Docker On ubuntu
 	
 		1. sudo apt update
 		
