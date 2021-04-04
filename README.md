@@ -3,17 +3,17 @@
 
 # BSE_Equity
 
-This Project will fetch Equity data on daily basis from BSE Site https://www.bseindia.com/markets/MarketInfo/BhavCopy.aspx
+___This Project will fetch Equity data on daily basis from BSE Site https://www.bseindia.com/markets/MarketInfo/BhavCopy.aspx
 
-__Requirements To run this project You need 
+* Requirements To run this project You need 
 
-Windows/Ubuntu instance
+	Windows/Ubuntu instance
 
-Docker and docker-compose Installed
+	Docker and docker-compose Installed
 
-Git Installed
+	Git Installed
 
-__To install Docker
+* To install Docker
 	___On windows
 	
 		1. You can directly download from Docker site https://hub.docker.com/editions/community/docker-ce-desktop-windows/
@@ -52,13 +52,13 @@ __To install Docker
 			CGroup: /system.slice/docker.service
 			     └─15092 /usr/bin/dockerd -H fd:// --containerd=/ru
 
-__To install docker-compose(on ubuntu)
+* To install docker-compose(on ubuntu)
 	
 	1. sudo curl -L "https://github.com/docker/compose/releases/download/1.25.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 	
 	2. sudo chmod +x /usr/local/bin/docker-compose
 
-__To Install git
+* To Install git
 	
 	1. sudo apt update 
 	
@@ -70,7 +70,7 @@ __To Install git
 		git version 2.17.1
 
 
-__To Run this project as follows
+* To Run this project as follows
 
 
 1. Clone the git repo using:
@@ -96,7 +96,7 @@ __To Run this project as follows
 8. If you need to apply SSL, you can use nginx file present in "simple-vuejs-app/nginx"
 
 
-___Note : 
+** Note : 
 * ___If You get error like this for redis, frontend, backend, scheduler
 	*Service 'frontend' failed to build: Get https://registry-1.docker.io/v2/: EOF
 	hit the command again
