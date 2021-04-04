@@ -24,11 +24,11 @@ def extract_zip():
         print("Cron for extract_zip Started at ", datetime.datetime.now())
         # today_date = datetime.date.today() - datetime.timedelta(days=1)
 
-        # today_date = datetime.date.today()
-        # changed_format = today_date.strftime("%d-%m-%y")
-        # date_string = changed_format.replace('-', '')
-        # url = CommonConstants.ZIP_FILE_URL.format(date_string)
-        url = CommonConstants.ZIP_FILE_URL.format(CommonConstants.BILL_FETCH_DATE)
+        today_date = datetime.date.today()
+        changed_format = today_date.strftime("%d-%m-%y")
+        date_string = changed_format.replace('-', '')
+        url = CommonConstants.ZIP_FILE_URL.format(date_string)
+        # url = CommonConstants.ZIP_FILE_URL.format(CommonConstants.BILL_FETCH_DATE)
 
         print("url is", url)
         req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})

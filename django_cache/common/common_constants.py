@@ -16,7 +16,7 @@ class CommonConstants:
     # BASE_FILE_PATH = "D:/vue-poc/poc 2/django_cache/django_cache"
     RELATIVE_FILE_PATH = "/cache/static_files"
     CSV_FILE_PATH = BASE_FILE_PATH + RELATIVE_FILE_PATH + "/EQ{}.CSV"
-    EXTRACT_FILE_TIME = "10:30"
-    PUT_DATA_IN_CACHE_TIME = "10:35"
+    EXTRACT_FILE_TIME = "12:35"
+    PUT_DATA_IN_CACHE_TIME = "12:40"
     BILL_FETCH_DATE = "010421"
     REDIS_HOST='redis'
