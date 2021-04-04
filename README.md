@@ -14,6 +14,7 @@ __This Project will fetch Equity data on daily basis from BSE Site https://www.b
 	Git Installed
 
 * To install Docker
+
 	On windows
 	
 		1. You can directly download from Docker site https://hub.docker.com/editions/community/docker-ce-desktop-windows/
@@ -21,7 +22,7 @@ __This Project will fetch Equity data on daily basis from BSE Site https://www.b
 		2. Docker compose is attached with docker while downloading from windows
 		
 	
-	To install Docker On ubuntu
+	On ubuntu
 	
 		1. sudo apt update
 		
@@ -54,7 +55,9 @@ __This Project will fetch Equity data on daily basis from BSE Site https://www.b
 			CGroup: /system.slice/docker.service
 			     └─15092 /usr/bin/dockerd -H fd:// --containerd=/ru
 
-* To install docker-compose(on ubuntu)
+* To install docker-compose
+		
+		on ubuntu
 	
 		1. sudo curl -L "https://github.com/docker/compose/releases/download/1.25.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
