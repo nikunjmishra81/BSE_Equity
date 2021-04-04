@@ -103,7 +103,7 @@ __This Project will fetch Equity data on daily basis from BSE Site https://www.b
 		8. If you need to apply SSL, you can use nginx file present in "simple-vuejs-app/nginx"
 
 
-** __Note : 
+* __Note : 
 * __If You get error like this for redis, frontend, backend, scheduler
 	* Service 'frontend' failed to build: Get https://registry-1.docker.io/v2/: EOF
 	* hit the command again
