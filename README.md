@@ -95,6 +95,7 @@ __This Project will fetch Equity data on daily basis from BSE Site https://www.b
 
 			
 
+![image](https://user-images.githubusercontent.com/35936741/113508670-eec8a480-956e-11eb-8338-878286d9389d.png)
 		6. Just check that 4 containers(named as redis, scheduler, frontend, backend) are up and running using command
 			* docker ps
 			You can see below image
