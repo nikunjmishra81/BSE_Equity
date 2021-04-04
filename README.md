@@ -112,12 +112,12 @@ __This Project will fetch Equity data on daily basis from BSE Site https://www.b
 * __In Case you are using an ubuntu system and containers don't goes up, or create some issue, you need to do proper volume mapping in docker compose file. To do so:
 	
 	
-	a. Search for "./django_cache" , It has 4 occurrences
+	___Search for "./django_cache" , It has 4 occurrences
 	
-	b. Replace it with actual path of folder i.e. "<base_path>/BSE_Equity/django_cache"
+	__Replace it with actual path of folder i.e. "<base_path>/BSE_Equity/django_cache"
 	
-	c. Search for "./simple-vuejs-app" , It has 2 occurrences with nginx
+	__Search for "./simple-vuejs-app" , It has 2 occurrences with nginx
 	
-	d. Replace it with actual path of folder i.e. "<base_path>/BSE_Equity/simple-vuejs-app"
+	__Replace it with actual path of folder i.e. "<base_path>/BSE_Equity/simple-vuejs-app"
 
 * ___Scheduler will run daily at 6:10PM IST and will fetch the data
