@@ -91,11 +91,13 @@ __This Project will fetch Equity data on daily basis from BSE Site https://www.b
 			* cd  BSE_Equity
 			* docker-compose up -d
 		5. Once the containers gets build up, You can see below image
+		
 			![image](https://user-images.githubusercontent.com/35936741/113507767-1701d480-956a-11eb-9dbb-20a36263a762.png)
 
 		6. Just check that 4 containers(named as redis, scheduler, frontend, backend) are up and running using command
 			* docker ps
 			You can see below image
+			
 			![image](https://user-images.githubusercontent.com/35936741/113507869-942d4980-956a-11eb-9e55-9d6935e2343f.png)
 
 
