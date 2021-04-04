@@ -68,11 +68,11 @@ class CacheDataView(APIView):
 class PostDataInCache():
     def post_data_in_cache(self):
         try:
-            today_date = datetime.date.today()
-            changed_format = today_date.strftime("%d-%m-%y")
-            date_string = changed_format.replace('-', '')
-            url = constants.CSV_FILE_PATH.format(date_string)
-            # url = constants.CSV_FILE_PATH.format(constants.BILL_FETCH_DATE)
+            # today_date = datetime.date.today()
+            # changed_format = today_date.strftime("%d-%m-%y")
+            # date_string = changed_format.replace('-', '')
+            # url = constants.CSV_FILE_PATH.format(date_string)
+            url = constants.CSV_FILE_PATH.format(constants.BILL_FETCH_DATE)
             print("file path is",url)
             df = pd.read_csv(url,
                              usecols=[

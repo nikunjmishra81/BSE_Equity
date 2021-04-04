@@ -22,8 +22,6 @@ services:
       - ./django_cache:/backend
     ports:
       - '8000:8000'
-    environment: 
-      - TZ=Asia/Kolkata
     links:
       - redis
     depends_on:
@@ -39,8 +37,6 @@ services:
       - ./django_cache:/backend
     container_name: scheduler
     image: scheduler_image
-    environment: 
-      - TZ=Asia/Kolkata
 
 
   frontend:
@@ -56,8 +52,7 @@ services:
       - ./simple-vuejs-app/nginx:/etc/nginx/conf.d
     ports:
       - 80:80
-    environment:
-      - TZ=Asia/Kolkata
+
     
 
       
