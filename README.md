@@ -3,7 +3,7 @@
 
 # BSE_Equity
 
-___This Project will fetch Equity data on daily basis from BSE Site https://www.bseindia.com/markets/MarketInfo/BhavCopy.aspx
+__This Project will fetch Equity data on daily basis from BSE Site https://www.bseindia.com/markets/MarketInfo/BhavCopy.aspx
 
 * Requirements To run this project You need 
 
@@ -14,13 +14,13 @@ ___This Project will fetch Equity data on daily basis from BSE Site https://www.
 	Git Installed
 
 * To install Docker
-	___On windows
+	On windows
 	
 		1. You can directly download from Docker site https://hub.docker.com/editions/community/docker-ce-desktop-windows/
 		
 		2. Docker compose is attached with docker while downloading from windows
 		
-	___On ubuntu
+	On ubuntu
 		1. sudo apt update
 		
 		2. sudo apt install docker.io
