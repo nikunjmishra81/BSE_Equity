@@ -7,11 +7,9 @@ __This Project will fetch Equity data on daily basis from BSE Site https://www.b
 
 * Requirements To run this project You need 
 
-	Windows/Ubuntu instance
-
-	Docker and docker-compose Installed
-
-	Git Installed
+	1. Windows/Ubuntu instance
+	2. Docker and docker-compose Installed
+	3. Git Installed
 
 * To install Docker
 
