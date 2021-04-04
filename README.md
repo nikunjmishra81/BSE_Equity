@@ -57,14 +57,18 @@ __This Project will fetch Equity data on daily basis from BSE Site https://www.b
 
 * To install docker-compose
 		
-		on ubuntu
+	on ubuntu
 	
 		1. sudo curl -L "https://github.com/docker/compose/releases/download/1.25.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
 		2. sudo chmod +x /usr/local/bin/docker-compose
 
 * To Install git
+	On Windows
 	
+		1. You can directly download from https://git-scm.com/downloads
+	On Ubuntu 	
+		
 		1. sudo apt update 
 
 		2. sudo apt install git
