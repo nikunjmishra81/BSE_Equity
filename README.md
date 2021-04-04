@@ -20,7 +20,9 @@ __This Project will fetch Equity data on daily basis from BSE Site https://www.b
 		
 		2. Docker compose is attached with docker while downloading from windows
 		
+	
 	On ubuntu
+	
 		1. sudo apt update
 		
 		2. sudo apt install docker.io
@@ -54,46 +56,46 @@ __This Project will fetch Equity data on daily basis from BSE Site https://www.b
 
 * To install docker-compose(on ubuntu)
 	
-	1. sudo curl -L "https://github.com/docker/compose/releases/download/1.25.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-	
-	2. sudo chmod +x /usr/local/bin/docker-compose
+		1. sudo curl -L "https://github.com/docker/compose/releases/download/1.25.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+		2. sudo chmod +x /usr/local/bin/docker-compose
 
 * To Install git
 	
-	1. sudo apt update 
-	
-	2. sudo apt install git
-	
-	3. To check installed or not use command
-		git --version
-		& output should be like
-		git version 2.17.1
+		1. sudo apt update 
+
+		2. sudo apt install git
+
+		3. To check installed or not use command
+			git --version
+			& output should be like
+			git version 2.17.1
 
 
 * To Run this project as follows
 
 
-1. Clone the git repo using:
-	
-	* git clone https://github.com/nikunjmishra81/BSE_Equity.git
+		1. Clone the git repo using:
 
-2. Make sure docker & docker-compose is Up & running
-3. Make sure port 80 of server is open
-4. Hit the below commands in CMD or terminal(ignore first command if not using ubuntu)
-	* sudo su
-	* cd  BSE_Equity
-	* docker-compose up -d
-5. Once the containers gets build up, You can see below image
-	![image](https://user-images.githubusercontent.com/35936741/113507767-1701d480-956a-11eb-9dbb-20a36263a762.png)
+			* git clone https://github.com/nikunjmishra81/BSE_Equity.git
 
-6. Just check that 4 containers(named as redis, scheduler, frontend, backend) are up and running using command
-	* docker ps
-	You can see below image
-	![image](https://user-images.githubusercontent.com/35936741/113507869-942d4980-956a-11eb-9e55-9d6935e2343f.png)
+		2. Make sure docker & docker-compose is Up & running
+		3. Make sure port 80 of server is open
+		4. Hit the below commands in CMD or terminal(ignore first command if not using ubuntu)
+			* sudo su
+			* cd  BSE_Equity
+			* docker-compose up -d
+		5. Once the containers gets build up, You can see below image
+			![image](https://user-images.githubusercontent.com/35936741/113507767-1701d480-956a-11eb-9dbb-20a36263a762.png)
+
+		6. Just check that 4 containers(named as redis, scheduler, frontend, backend) are up and running using command
+			* docker ps
+			You can see below image
+			![image](https://user-images.githubusercontent.com/35936741/113507869-942d4980-956a-11eb-9e55-9d6935e2343f.png)
 
 
-7. Once the 4 containers are up, Check the Port 80 on your machine
-8. If you need to apply SSL, you can use nginx file present in "simple-vuejs-app/nginx"
+		7. Once the 4 containers are up, Check the Port 80 on your machine
+		8. If you need to apply SSL, you can use nginx file present in "simple-vuejs-app/nginx"
 
 
 ** Note : 
